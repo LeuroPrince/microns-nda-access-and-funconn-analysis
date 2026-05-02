@@ -1,1 +1,16 @@
 notebooks/
+
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local credentials and environment files.
+.env
+*.env
+*.pem
+*.key
+*.token
+
+# Local OS/editor noise.
+.DS_Store
+Thumbs.db
