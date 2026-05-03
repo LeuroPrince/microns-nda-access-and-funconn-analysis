@@ -96,7 +96,7 @@ Current analysis-related files:
 ```text
 D:\microns_nda_v8_cd\microns-nda-access\notebooks\functional_data_access_and_analysis.py
 D:\microns_nda_v8_cd\microns-nda-access\notebooks\session7_scan4_functional_correlation_analysis.ipynb
-D:\microns_nda_v8_cd\microns-nda-access\notebooks\outputs_session7scan4_v1_column_126
+D:\microns_nda_v8_cd\microns-nda-access\notebooks\outputs_v1_col_7_4
 D:\microns_nda_v8_cd\microns-nda-access\notebooks\cache
 ```
 
@@ -282,7 +282,7 @@ Continue from these files:
 ```text
 D:\microns_nda_v8_cd\microns-nda-access\notebooks\session7_scan4_functional_correlation_analysis.ipynb
 D:\microns_nda_v8_cd\microns-nda-access\notebooks\functional_data_access_and_analysis.py
-D:\microns_nda_v8_cd\microns-nda-access\notebooks\outputs_session7scan4_v1_column_126
+D:\microns_nda_v8_cd\microns-nda-access\notebooks\outputs_v1_col_7_4
 ```
 
 Before large analysis, check disk space and container status.
