@@ -1,5 +1,10 @@
 # microns-nda-access
 
+Codex/model context note: before asking a model to inspect this project, start with
+`PROJECT_CONTEXT_FOR_CODEX.md`. When changing notebooks, output layout, key result
+definitions, or summary data, update that file in the same change so future model
+sessions can understand the project without reading every generated artifact.
+
 This guide will walk you through setting up the `nda` database locally. The `nda` database contains the functional data for the MICrONS project.
 
 An overview of the functional data and other access options can be found in [MICrONS Explorer](https://www.microns-explorer.org/cortical-mm3#f-data).

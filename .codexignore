@@ -1,0 +1,91 @@
+# Credentials and local machine configuration.
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*credential*
+*credentials*
+*secret*
+*token*
+
+# Git internals and editor/system noise.
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs, runtime state, and temporary files.
+*.log
+logs/
+tmp/
+temp/
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Python, Jupyter, and packaging caches.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+.tox/
+build/
+dist/
+*.egg-info/
+
+# Large local data/database artifacts.
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+*.tar
+*.tar.gz
+*.zip
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Generated figures and binary notebook/media output.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Notebooks are often large because they contain executed outputs/base64 images.
+# Read PROJECT_CONTEXT_FOR_CODEX.md first; open a specific notebook only when editing it.
+*.executed.ipynb
+tutorial/*.ipynb
+funconn-analysis/example.ipynb
+funconn-analysis/structural-coupling-alignment/*.ipynb
+
+# Generated notebook output transcript; useful for provenance, too large for default context.
+funconn-analysis/notebook_cell_outputs_*.md
+
+# Heavy generated analysis tables that are documented in outputs_v1_col_7_4/README.md
+# and PROJECT_CONTEXT_FOR_CODEX.md. Keep small metadata/summary CSVs visible.
+outputs_v1_col_7_4/**/V1_col_7_4_*matrix*.csv
+outputs_v1_col_7_4/**/V1_col_7_4_*pairwise*.csv
+outputs_v1_col_7_4/**/V1_col_7_4_internal_synapses.csv
+outputs_v1_col_7_4/**/V1_col_7_4_functional_network_offdiag_matrix.csv
+outputs_v1_col_7_4/**/legacy_failed_cache/
+
+# Keep these small, high-signal files available to the model by default.
+!README.md
+!outputs_v1_col_7_4/README.md
+!PROJECT_CONTEXT_FOR_CODEX.md
+!outputs_v1_col_7_4/**/V1_col_7_4_units_used.csv
+!outputs_v1_col_7_4/**/V1_col_7_4_activity_nonzero_mean_scaling_summary.csv
+!outputs_v1_col_7_4/**/V1_col_7_4_layer_annotation_summary.csv
+!outputs_v1_col_7_4/**/V1_col_7_4_root_id_layer_annotations.csv
+!outputs_v1_col_7_4/**/V1_col_7_4_activity_normalized_covariance_L23_vs_full_eigenspectrum_summary.csv

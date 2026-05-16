@@ -7,6 +7,7 @@ This folder is organized by analysis type, run date, and output role.
 Presentation/example figures derived from `example.ipynb`:
 
 - `V1_col_7_4_activity_trace_heatmap.png`: heatmap of the 126 `nda.Activity.trace` signals after row-wise z-scoring and time binning.
+- `V1_col_7_4_activity_trace_raw_heatmap.png`: heatmap of the same 126 `nda.Activity.trace` signals after time binning only, without row-wise z-scoring.
 - `V1_col_7_4_single_unit_activity_trace_example.png`: one example neuron's `nda.Activity.trace`.
 - `V1_col_7_4_calcium_activity_trace_heatmap.png`: older presentation heatmap kept for provenance.
 
